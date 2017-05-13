@@ -1,0 +1,327 @@
+body {
+	font-family: "myriad", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	width: 100%;
+}
+nav {
+	height: 40px;
+	background-color: #1a1e5b;
+	font-weight: 200;
+	width: 100%;
+}
+nav > ul > li > ul {
+
+	visibility: hidden;
+	overflow: hidden;
+	
+}
+ul {
+	width: 100%;
+	margin: 0 auto;
+    padding: 0;
+}
+.icon img{
+	margin-top: 5px;
+	width: 75px;
+	padding: 1px 15px;
+}
+nav > ul > li > ul > li {
+	position: relative;
+    color: #ffffff;
+    padding: 0px 16px;
+    top: -20px;
+    text-decoration: none;
+}
+a {
+    color: #ffffff;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+a:active {
+	color: #faa61a;
+}
+a:focus {
+	color: #faa61a;
+}
+a:hover {
+	color: #faa61a;
+}
+ul, ol {
+	list-style-type:none
+}
+input[type=text] {
+	visibility: visible;
+}
+.svg-menu img{
+  width: 25px;
+}
+.dropbtn {
+    background-color: #fff;
+    float: right;
+    color: #000;
+    padding: 22px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    visibility: visible;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+   
+}
+#myInput {
+    border-box: box-sizing;
+    background-image: url('../images/searchicon.svg');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    top: -50px;	
+    float: right;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: relative;
+    top: 50px;	
+    float: right;
+    display: none;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;
+}
+
+.show {display:block;
+}
+form {
+    visibility: hidden;
+    overflow: hidden;
+}
+@media screen and (min-width: 768px){ 
+body {
+	font-family: "myriad", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	width: 100%;
+}
+nav {
+	height: 50px;
+	background-color: #1a1e5b;
+	font-weight: 200;
+	width: 100%;
+}
+nav > ul > li > ul {
+
+	visibility: hidden;
+	overflow: hidden;
+	
+}
+ul {
+	width: 100%;
+	margin: 0 auto;
+    padding: 0;
+}
+.icon img{
+	margin-top: 10px;
+	width: 70px;
+	padding: 1px 15px;
+}
+nav > ul > li > ul > li {
+	position: relative;
+    color: #ffffff;
+    padding: 0px 16px;
+    top: -20px;
+    text-decoration: none;
+}
+.svg-menu img{
+	position: relative;
+	top: -5px;
+  	width: 30px;
+}
+.dropbtn {
+    background-color: #fff;
+    float: right;
+    color: #000;
+    padding: 22px;
+    font-size: 16px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    visibility: visible;
+}
+form {
+    visibility: visible;
+    overflow: visible;
+}
+}
+
+
+@media (min-width: 900px) { 
+
+nav {
+	height: 55px;
+	background-color: #1a1e5b;
+	font-weight: 200;
+	width: 100%;
+	padding: 15px;
+}
+
+nav > ul > li > ul {
+	visibility: visible;
+	overflow: visible;
+}
+.dropbtn {
+	visibility: hidden;
+}
+
+.icon img{
+	margin-top: 10px;
+	padding: 0;
+}
+nav {
+	height: 55px;
+	background-color: #1a1e5b;
+	font-weight: 200;
+	width: 100%;
+	padding: 0 15px;
+}
+ul {
+	position: relative;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.icon img{
+	margin-top: 10px;
+	width: 90px;
+}
+nav > ul > li > ul > li {
+	float: right;
+	display: inline-block;
+	position: relative;
+    color: #ffffff;
+    padding: 0px 16px;
+    top: -20px;
+    text-decoration: none;
+}
+input {
+	padding-right: 15px;
+}
+input[type=text] {
+	position: relative;
+  	width: 44px;
+  	float: right;
+  	top: -5px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #000000;
+    background-image: url('../images/searchicon.svg');
+    background-position: 0px 50%;
+    background-repeat: no-repeat;
+    background-size: 27px;
+    padding: 5px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    visibility: visible;
+
+}
+input[type=text]:focus {
+    width: 100%;
+    max-width: 125px;
+	color: #000000;
+}
+.hover-effect > li > a:hover:after {
+	content: "";
+	position: absolute;
+	top: 20px;
+	left: 40%; /* centers the element's left edge */
+  	margin: 0 auto;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #ffffff;
+/*	-webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;*/
+	}
+.hover-effect > li > a:focus:after {
+	content: "";
+	position: absolute;
+	top: 20px;
+	left: 40%; /* centers the element's left edge */
+  	margin: 0 auto;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #ffffff;
+/*	-webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;*/
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+input {
+	padding-right: 15px;	
+}
+input[type=text] {
+	position: relative;
+  	width: 50px;
+  	float: right;
+  	top: -5px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    color: #000000;
+    background-image: url('../images/searchicon.svg');
+    background-position: 0px 50%;
+    background-repeat: no-repeat;
+    background-size: 27px;
+    padding: 5px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    visibility: visible;
+
+}
+input[type=text]:focus {
+    width: 100%;
+    max-width: 150px;
+	color: #000000;
+
+}
+	
+
+
+}
